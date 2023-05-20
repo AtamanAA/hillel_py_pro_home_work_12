@@ -1,7 +1,8 @@
 from django.db import models
 
 
-class Blog(models.Model):
+class Publication(models.Model):
+    DoesNotExist = None
     title = models.CharField(max_length=40)
     content = models.TextField()
-    update_at = models.DateTimeField(auto_now=True)
+    updated_at = models.DateTimeField(auto_now=True)
