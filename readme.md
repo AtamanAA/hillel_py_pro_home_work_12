@@ -1,4 +1,4 @@
-# Home work 10
+# Home work 12
 
 Кешування у Django
 
@@ -6,7 +6,7 @@
 
 1. Склонувати репозиторій
     ```bash    
-    git clone https://github.com/AtamanAA/hillel_py_pro_lesson12.git    
+    git clone https://github.com/AtamanAA/hillel_py_pro_home_work_12.git  
     ```
 2. Запустити [Redis](https://redis.io) (переконатися що [Docker Desktop](https://www.docker.com/products/docker-desktop/) запущений )
     ```bash
