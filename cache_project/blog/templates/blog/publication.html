@@ -6,7 +6,21 @@
 </head>
 <body>
 
-    {{form.as_p}}
+    <div>
+        {% if messages %}
+            {% for message in messages %}
+                {{message}}
+            {% endfor %}
+        {% endif %}
+    </div>
+
+    <div>
+        <h1>{{ publication.title }}</h1>
+        <p>{{ publication.content }}</p>
+        <p>{{ publication.updated_at }}</p>
+    </div>
+
+    <a href="{% url 'publication_update' publication.id %}" target="_blank">Update this publication</a>
 
 </body>
 </html>
